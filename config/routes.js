@@ -32,10 +32,6 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  },
-
   '/.well-known/webfinger': {
 	controller: "WebfingerController",
 	action: 'show'
