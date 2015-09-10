@@ -1,11 +1,12 @@
 {
-  "name": "ripple-name-service",
+  "name": "coingate-name-service",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
     "babel": "^5.6.14",
+    "bitcore": "^0.13.3",
     "bluebird": "^2.9.33",
     "ejs": "~0.8.4",
     "grunt": "0.4.2",
@@ -36,8 +37,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stevenzeiler/ripple-name-service.git"
+    "url": "git://github.com/zenterp/coingate-webfinger-service.git"
   },
-  "author": "stevenzeiler",
+  "author": "Steven Zeiler",
   "license": ""
 }

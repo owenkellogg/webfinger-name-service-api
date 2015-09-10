@@ -1,4 +1,4 @@
-# webfinger-name-service
+# coingate-webfinger-service
 
 Webfinger-based identity API
 
@@ -12,18 +12,18 @@ npm start
 ````
 
 ````
-GET /.well-known/webfinger?resource=acct:stevenzeiler@id.ripple.com
+GET /.well-known/webfinger?resource=bitcoin:12mJkMDet2NeofHXC7LTW9hnyqXU79nice@coingate.io
 
 {
-  "subject": "acct:stevenzeiler@id.ripple.com",
+  "subject": "bitcoin:12mJkMDet2NeofHXC7LTW9hnyqXU79nice@coingate.io",
   "links": [
     {
       "rel": "https://ripple.com/standards/webfinger#ripple-address",
-      "href": "ripple:r4EwBWxrx5HxYRyisfGzMto3AT8FZiYdWk"
+      "href": "ripple:78739355@r4EwBWxrx5HxYRyisfGzMto3AT8FZiYdWk"
     },
     {
-      "rel": "https://ripple.com/standards/webfinger#ripple-name",
-      "href": "acct:stevenzeiler@id.ripple.com"
+      "rel": "https://coingate.io/standards/webfinger#bitcoin-address",
+      "href": "bitcoin:12mJkMDet2NeofHXC7LTW9hnyqXU79nice"
     }
   ]
 }
